@@ -1,5 +1,6 @@
 # **TIK2032 - Pemrograman Web B**<br>
-**Fadhlan Adrevy Syawal - 240211060034**
+**Fadhlan Adrevy Syawal - 240211060034**<br>
+*Github Pages: https://fadhlan1706.github.io/-TUGAS-Project.01-HTML-2026/[TUGAS]%20Project.01-HTML%202026/*
 
 ## **[TUGAS] Project.01-HTML 2026**<br>
 Batas submit project: Rabu,  29 Maret 2026 23.59 Wita
