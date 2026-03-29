@@ -1,7 +1,7 @@
-#**TIK2032 - Pemrograman Web B**<br>
-#Fadhlan Adrevy Syawal - 240211060034
+# **TIK2032 - Pemrograman Web B**<br>
+# Fadhlan Adrevy Syawal - 240211060034
 
-##**[TUGAS] Project.01-HTML 2026**<br>
+## **[TUGAS] Project.01-HTML 2026**<br>
 Batas submit project: Rabu,  29 Maret 2026 23.59 Wita
 
 Tugas individual dikerjakan perorangan. Merupakan bagian dari rangkaian tugas proyek berseri.
