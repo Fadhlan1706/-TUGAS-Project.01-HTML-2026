@@ -1,118 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Portfolio Saya</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <div class="container navbar">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
         <h1 class="logo">fadhlansy</h1>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
         </nav>
+      </div>
+    </header>
 
-        <button class="dark-btn" onclick="toggleDarkMode()">
-            🌙
-        </button>
-    </div>
-</header>
+    <section class="hero">
+      <div class="hero-text">
+        <h3>Halo Semua, Saya</h3>
+        <h1>Fadhlan Adrevy Syawal</h1>
+        <h2>
+          IT Engineering Student
+          <a href="https://www.unsrat.ac.id/" target="_blank">
+            Universitas Sam Ratulangi
+          </a>
+        </h2>
+        <a href="contact.html" class="btn"> Hubungi Saya </a>
+      </div>
+      <div class="hero-image">
+        <div class="circle"></div>
+        <img src="images/profile.png" alt="Foto Profile" />
+      </div>
+    </section>
 
-<section class="hero fade-in">
-    <div class="container">
-        <h2>Halo, Saya Fadhlan Adrevy Syawal 👋</h2>
+    <section class="about">
+      <div class="about-container">
+        <div class="about-left">
+          <h3>Tentang Saya</h3>
+          <p>
+            Saya adalah mahasiswa Teknik Informatika Universitas Sam Ratulangi
+            (UNSRAT) yang memiliki minat dalam pengembangan sistem backend dan
+            jaringan komputer. Saya tertarik pada bagaimana sebuah sistem dapat
+            berjalan secara efisien di balik layar, mulai dari pengelolaan
+            server, API, hingga komunikasi antar sistem dalam sebuah jaringan.
+          </p>
+          <p>
+            Saya memiliki pengalaman dalam pengembangan backend menggunakan
+            teknologi seperti Golang dan PostgreSQL, serta memahami konsep dasar
+            jaringan komputer seperti protokol komunikasi, arsitektur
+            client-server, dan manajemen data, juga mengkonfigurasi suatu
+            topologi jaringan. Saya juga tertarik untuk mengembangkan solusi
+            berbasis teknologi yang dapat membantu menyelesaikan permasalahan
+            nyata, khususnya dalam pengolahan data dan sistem terintegrasi.
+          </p>
 
-        <p>
-            Saya adalah mahasiswa Teknik Informatika Universitas Sam Ratulangi (UNSRAT) 
-            yang memiliki minat dalam pengembangan sistem backend dan jaringan komputer. 
-            Saya tertarik pada bagaimana sebuah sistem dapat berjalan secara efisien 
-            di balik layar, mulai dari pengelolaan server, API, hingga komunikasi 
-            antar sistem dalam sebuah jaringan.
-        </p>
+          <p>
+            Selain itu, saya juga aktif dalam kegiatan organisasi di kampus,
+            baik internal mau pun eksternal, seperti bergabung dengan UKM UNSRAT
+            IT Community (UNITY), Himpunan Mahasiswa Teknik Elektro (HME), dan
+            Badan Tadzkir juga Himpunan Mahasiswa Islam (HMI) untuk menambah
+            relasi dan pengetahuan serta berkontribusi di dalamnya. Saya percaya
+            bahwa dengan terus belajar dan berkolaborasi dengan orang lain, saya
+            dapat mengembangkan keterampilan saya lebih jauh dan memberikan
+            kontribusi positif dalam dunia teknologi dan juga masyarakat.
+          </p>
+        </div>
+        <div class="about-right">
 
-        <a href="contact.html" class="btn">
-            Hubungi Saya
-        </a>
-    </div>
-</section>
-
-<section class="about fade-in">
-    <div class="container">
-
-        <h2>Tentang Saya</h2>
-
-        <div class="card">
-            <p>
-                Saya memiliki pengalaman dalam pengembangan backend menggunakan teknologi 
-                seperti Golang dan PostgreSQL, serta memahami konsep dasar jaringan komputer 
-                seperti protokol komunikasi, arsitektur client-server, dan manajemen data, 
-                juga mengkonfigurasi suatu topologi jaringan. Saya juga tertarik untuk 
-                mengembangkan solusi berbasis teknologi yang dapat membantu menyelesaikan 
-                permasalahan nyata, khususnya dalam pengolahan data dan sistem terintegrasi.
-            </p>
-
-            <p>
-                Selain itu, saya juga aktif dalam kegiatan organisasi di kampus, baik internal 
-                mau pun eksternal, seperti bergabung dengan UKM UNSRAT IT Community (UNITY), 
-                Himpunan Mahasiswa Teknik Elektro (HME), dan Badan Tadzkir juga Himpunan Mahasiswa 
-                Islam (HMI) untuk menambah relasi dan pengetahuan serta berkontribusi di dalamnya. 
-                Saya percaya bahwa dengan terus belajar dan berkolaborasi dengan orang lain, 
-                saya dapat mengembangkan keterampilan saya lebih jauh dan memberikan kontribusi 
-                positif dalam dunia teknologi dan juga masyarakat.
-            </p>
+      <h3>Skills</h3>
+      <div class="skill-list">
+        <div class="skill-card">
+          <img src="images/html5-original.svg" alt="HTML">
+          <span>HTML</span>
         </div>
 
-    </div>
-</section>
-
-<section class="skills fade-in">
-    <div class="container">
-
-        <h2>Skills</h2>
-
-        <div class="skill-list">
-
-            <div class="skill-card">
-                HTML
-            </div>
-
-            <div class="skill-card">
-                CSS
-            </div>
-
-            <div class="skill-card">
-                JavaScript
-            </div>
-
-            <div class="skill-card">
-                Golang
-            </div>
-
-            <div class="skill-card">
-                PostgreSQL
-            </div>
-
-            <div class="skill-card">
-                Git & GitHub
-            </div>
-
+        <div class="skill-card">
+          <img src="images/css3-original.svg" alt="CSS">
+          <span>CSS</span>
         </div>
 
-    </div>
-</section>
+        <div class="skill-card">
+          <img src="images/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
 
-<footer>
-    <p>© 2026 fadhlansy</p>
-</footer>
+        <div class="skill-card">
+          <img src="images/go-original.svg" alt="Golang">
+          <span>Golang</span>
+        </div>
 
-<script src="script.js"></script>
+        <div class="skill-card">
+          <img src="images/python-original.svg" alt="Python">
+          <span>Python</span>
+        </div>
 
-</body>
+        <div class="skill-card">
+          <img src="images/rstudio-original.svg" alt="RStudio">
+          <span>RStudio</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/postgresql-original.svg" alt="PostgreSQL">
+          <span>PostgreSQL</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/mariadb-original.svg" alt="MariaDB">
+          <span>MariaDB</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/mysql-original.svg" alt="MySQL">
+          <span>MySQL</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/unity-original.svg" alt="Unity">
+          <span>Unity</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/canva-original.svg" alt="Canva"><img src="images/figma-original.svg" alt="Figma">
+          <span>Canva & Figma (Digital Design)</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/git-original.svg" alt="Git"><img src="images/github-original.svg" alt="GitHub"><img src="images/gitlab-original.svg" alt="GitLab">
+          <span>Git Ecosystem</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 fadhlansy</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,69 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <div class="container navbar">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
         <h1 class="logo">Gallery</h1>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
         </nav>
+      </div>
+    </header>
 
-        <button class="dark-btn" onclick="toggleDarkMode()">
-            🌙
-        </button>
-    </div>
-</header>
-
-<section class="gallery-section fade-in">
-
-    <div class="container">
-
+    <section class="gallery-section fade-in">
+      <div class="container">
         <h2>Gallery Project & Aktivitas</h2>
 
         <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="images/personalHomepage.png" alt="" />
+            <figcaption>
+              <i>Personal Homepage</i> <br />Fadhlan Adrevy Syawal
+            </figcaption>
+          </figure>
 
-            <figure class="gallery-item">
-                <img src="images/apieCamp8.jpeg" alt="">
-                <figcaption><i>Industrial Visit</i> di PT Telin Manado — APIE CAMP#8 UNSRAT</figcaption>
-            </figure>
+          <figure class="gallery-item">
+            <img src="images/beSistemPerpus.png" alt="" />
+            <figcaption>
+              <i>Mini Project</i> Backend Sistem Perpustakaan
+            </figcaption>
+          </figure>
 
-            <figure class="gallery-item">
-                <img src="images/crimping.jpeg" alt="">
-                <figcaption><i>Network Cabling</i> dan <i>Physical Setup</i> — APIE CAMP#8 UNSRAT</figcaption>
-            </figure>
-            
-            <figure class="gallery-item">
-                <img src="images/btuOmmblk2025.jpg" alt="">
-                <figcaption>Orientasi Mahasiswa Muslim Baru Linkar Kampus 2025 — Badan Tadzkir UNSRAT</figcaption>
-            </figure>
+          <figure class="gallery-item">
+            <video autoplay loop controls>
+              <source src="videos/demoGame.mp4" type="video/mp4" />
+              Browser Anda tidak mendukung video.
+            </video>
+            <figcaption>Demo <i>Mini Project</i> Game Sederhana</figcaption>
+          </figure>
 
-            <figure class="gallery-item">
-                <img src="images/beSistemPerpus.png" alt="">
-                <figcaption><i>Mini Project</i> Backend Sistem Perpustakaan</figcaption>
-            </figure>
+          <figure class="gallery-item">
+            <img src="images/Desain tanpa judul (4).png" alt="" />
+            <figcaption>Desain Infografis Game</figcaption>
+          </figure>
 
+          <figure class="gallery-item">
+            <img src="images/apieCamp8.jpeg" alt="" />
+            <figcaption>
+              <i>Industrial Visit</i> di PT Telin Manado — APIE CAMP#8 UNSRAT
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="images/crimping.jpeg" alt="" />
+            <figcaption>
+              <i>Network Cabling</i> dan <i>Physical Setup</i> — APIE CAMP#8
+              UNSRAT
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="images/btuOmmblk2025.jpg" alt="" />
+            <figcaption>
+              Orientasi Mahasiswa Muslim Baru Linkar Kampus 2025 — Badan Tadzkir
+              UNSRAT
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="images/DAY2_ FullSizeRender.HEIC.png" alt="" />
+            <figcaption>TechoFest 2025 — UNITY</figcaption>
+          </figure>
         </div>
+      </div>
+    </section>
 
+    <div id="lightbox">
+      <span id="close-lightbox">&times;</span>
+
+      <img id="lightbox-img" src="" alt="" />
     </div>
 
-</section>
+    <footer>
+      <p>© 2026 fadhlansy</p>
+    </footer>
 
-<footer>
-    <p>© 2026 fadhlansy</p>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

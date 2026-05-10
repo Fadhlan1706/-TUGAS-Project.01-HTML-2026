@@ -1,70 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <div class="container navbar">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
         <h1 class="logo">Contact</h1>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
         </nav>
+      </div>
+    </header>
 
-        <button class="dark-btn" onclick="toggleDarkMode()">
-            🌙
-        </button>
-    </div>
-</header>
-
-<section class="contact-section fade-in">
-
-    <div class="container">
-
+    <section class="contact-section fade-in">
+      <div class="container">
         <h2>Hubungi Saya</h2>
 
         <div class="card">
-
-            <p><strong>Nama:</strong> Fadhlan Adrevy Syawal</p>
-            <p><strong>Program Studi:</strong> Teknik Informatika</p>
-            <p><strong>Universitas:</strong> Universitas Sam Ratulangi</p>
-            <p><strong>Email:</strong> fadhlanadrevy17@gmail.com</p>
-            <p><strong>Whatsapp:</strong> +62 896 9799 9290</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/Fadhlan1706" target="_blank">Fadhlan1706</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fadhlan-syawal-451538173/" target="_blank">Fadhlan Syawal</a></p>
+          <p><strong>Nama:</strong> Fadhlan Adrevy Syawal</p>
+          <p><strong>Program Studi:</strong> Teknik Informatika</p>
+          <p><strong>Universitas:</strong> Universitas Sam Ratulangi</p>
+          <p><strong>Email:</strong> fadhlanadrevy17@gmail.com</p>
+          <p><strong>Whatsapp:</strong> +62 896 9799 9290</p>
+          <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/Fadhlan1706" target="_blank"
+              >Fadhlan1706</a
+            >
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/fadhlan-syawal-451538173/"
+              target="_blank"
+              >Fadhlan Syawal</a
+            >
+          </p>
         </div>
 
-        <form onsubmit="return validateForm()">
+        <form onsubmit="return validateForm();">
+          <input type="text" id="name" placeholder="Masukkan nama" />
 
-            <input type="text" id="name" placeholder="Masukkan nama">
+          <input type="email" id="email" placeholder="Masukkan email" />
 
-            <input type="email" id="email" placeholder="Masukkan email">
-
-            <textarea id="message" rows="5" placeholder="Masukkan pesan"></textarea>
-
-            <button type="submit">
-                Kirim Pesan
-            </button>
-
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Masukkan pesan"
+          ></textarea>
+          <button type="submit" class="btn">Kirim Pesan</button>
         </form>
+      </div>
+    </section>
 
-    </div>
+    <footer>
+      <p>© 2026 fadhlansy</p>
+    </footer>
 
-</section>
-
-<footer>
-    <p>© 2026 fadhlansy</p>
-</footer>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
