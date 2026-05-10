@@ -2,32 +2,68 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Gallery</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <div class="container navbar">
+        <h1 class="logo">Gallery</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="dark-btn" onclick="toggleDarkMode()">
+            🌙
+        </button>
+    </div>
 </header>
 
-<div class="container">
-    <section class="gallery">
-        <img src="images/C38ABDD9-A511-49E5-A0E9-77E9FBAE7811-12357-000001FDB3D172F9.jpg" alt="Foto 1">
-        <img src="images/0m3a4324.jpg.jpeg" alt="Foto 2">
-        <img src="images/IMG_5976.jpg.jpeg" alt="Foto 3">
-        <img src="images/Screenshot 2026-03-29 222924.png" alt="Foto 4">
-    </section>
-</div>
+<section class="gallery-section fade-in">
+
+    <div class="container">
+
+        <h2>Gallery Project & Aktivitas</h2>
+
+        <div class="gallery-grid">
+
+            <figure class="gallery-item">
+                <img src="images/apieCamp8.jpeg" alt="">
+                <figcaption><i>Industrial Visit</i> di PT Telin Manado — APIE CAMP#8 UNSRAT</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/crimping.jpeg" alt="">
+                <figcaption><i>Network Cabling</i> dan <i>Physical Setup</i> — APIE CAMP#8 UNSRAT</figcaption>
+            </figure>
+            
+            <figure class="gallery-item">
+                <img src="images/btuOmmblk2025.jpg" alt="">
+                <figcaption>Orientasi Mahasiswa Muslim Baru Linkar Kampus 2025 — Badan Tadzkir UNSRAT</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/beSistemPerpus.png" alt="">
+                <figcaption><i>Mini Project</i> Backend Sistem Perpustakaan</figcaption>
+            </figure>
+
+        </div>
+
+    </div>
+
+</section>
 
 <footer>
-    <p>© 2026 Fadhlan</p>
+    <p>© 2026 fadhlansy</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

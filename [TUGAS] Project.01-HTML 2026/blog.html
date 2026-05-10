@@ -1,95 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <h1 class="logo">Blog</h1>
 
-<header>
-    <h1>Blog</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
 
-<div class="container">
+        <button class="dark-btn" onclick="toggleDarkMode()">🌙</button>
+      </div>
+    </header>
 
-    <section>
+    <section class="blog-section fade-in">
+      <div class="container">
         <h2>Artikel Saya</h2>
+
+        <article class="card">
+          <h3>Pengenalan Backend Development</h3>
+
+          <p>
+            Backend development adalah bagian dari pengembangan aplikasi yang
+            bekerja di balik layar. Backend bertanggung jawab dalam mengelola
+            data, logika aplikasi, serta komunikasi antara server dan client.
+          </p>
+
+          <p>
+            Dalam backend, developer biasanya menggunakan bahasa pemrograman
+            seperti Golang, Python, atau Java, serta database seperti PostgreSQL
+            atau MySQL untuk menyimpan data.
+          </p>
+
+          <p>
+            Dengan memahami backend, kita dapat membangun sistem yang stabil,
+            aman, dan mampu menangani banyak pengguna secara bersamaan.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Pentingnya Jaringan Komputer dalam Sistem Modern</h3>
+
+          <p>
+            Jaringan komputer memungkinkan perangkat untuk saling terhubung dan
+            bertukar data. Tanpa jaringan, aplikasi modern seperti website dan
+            mobile apps tidak dapat berfungsi dengan baik.
+          </p>
+          <p>
+            Konsep seperti client-server, protokol HTTP, dan IP addressing
+            merupakan dasar dari komunikasi dalam jaringan komputer.
+          </p>
+          <p>
+            Dengan memahami jaringan komputer, kita dapat mengoptimalkan
+            performa aplikasi serta meningkatkan keamanan sistem.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Cara Kerja API dalam Aplikasi</h3>
+          <p>
+            API (Application Programming Interface) adalah jembatan yang
+            menghubungkan antara frontend dan backend. API memungkinkan aplikasi
+            untuk saling berkomunikasi dan bertukar data.
+          </p>
+          <p>
+            Sebagai contoh, ketika pengguna login ke sebuah aplikasi, frontend
+            akan mengirimkan data ke backend melalui API, kemudian backend akan
+            memproses dan mengirimkan respon kembali.
+          </p>
+          <p>
+            API biasanya menggunakan format JSON dan protokol HTTP seperti GET,
+            POST, PUT, dan DELETE.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Tips Belajar Informatika untuk Pemula</h3>
+          <p>
+            Belajar informatika membutuhkan konsistensi dan latihan yang terus
+            menerus. Banyak mahasiswa merasa kesulitan karena terlalu fokus pada
+            teori tanpa praktik.
+          </p>
+          <p>
+            Cara terbaik untuk belajar adalah dengan membuat project sederhana
+            seperti website, API, atau aplikasi kecil. Selain itu, memahami
+            konsep dasar seperti algoritma, struktur data, dan jaringan komputer
+            sangat penting.
+          </p>
+          <p>
+            Jangan takut untuk mencoba dan melakukan kesalahan, karena dari
+            situlah proses belajar terjadi.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <article class="card">
-        <h3>Pengenalan Backend Development</h3>
-        <p>
-            Backend development adalah bagian dari pengembangan aplikasi yang bekerja di balik layar. 
-            Backend bertanggung jawab dalam mengelola data, logika aplikasi, serta komunikasi antara server dan client.
-        </p>
-        <p>
-            Dalam backend, developer biasanya menggunakan bahasa pemrograman seperti Golang, Python, atau Java, 
-            serta database seperti PostgreSQL atau MySQL untuk menyimpan data.
-        </p>
-        <p>
-            Dengan memahami backend, kita dapat membangun sistem yang stabil, aman, dan mampu menangani banyak pengguna secara bersamaan.
-        </p>
-        <p><strong>Kesimpulan:</strong> Backend merupakan fondasi utama dalam sebuah aplikasi yang memastikan sistem berjalan dengan baik.</p>
-    </article>
+    <footer>
+      <p>© 2026 fadhlansy</p>
+    </footer>
 
-    <article class="card">
-        <h3>Pentingnya Jaringan Komputer dalam Sistem Modern</h3>
-        <p>
-            Jaringan komputer memungkinkan perangkat untuk saling terhubung dan bertukar data. 
-            Tanpa jaringan, aplikasi modern seperti website dan mobile apps tidak dapat berfungsi dengan baik.
-        </p>
-        <p>
-            Konsep seperti client-server, protokol HTTP, dan IP addressing merupakan dasar dari komunikasi dalam jaringan komputer.
-        </p>
-        <p>
-            Dengan memahami jaringan komputer, kita dapat mengoptimalkan performa aplikasi serta meningkatkan keamanan sistem.
-        </p>
-        <p><strong>Kesimpulan:</strong> Jaringan komputer adalah tulang punggung komunikasi dalam dunia teknologi saat ini.</p>
-    </article>
-
-    <article class="card">
-        <h3>Cara Kerja API dalam Aplikasi</h3>
-        <p>
-            API (Application Programming Interface) adalah jembatan yang menghubungkan antara frontend dan backend. 
-            API memungkinkan aplikasi untuk saling berkomunikasi dan bertukar data.
-        </p>
-        <p>
-            Sebagai contoh, ketika pengguna login ke sebuah aplikasi, frontend akan mengirimkan data ke backend melalui API, 
-            kemudian backend akan memproses dan mengirimkan respon kembali.
-        </p>
-        <p>
-            API biasanya menggunakan format JSON dan protokol HTTP seperti GET, POST, PUT, dan DELETE.
-        </p>
-        <p><strong>Kesimpulan:</strong> API sangat penting dalam membangun aplikasi modern karena menghubungkan berbagai komponen sistem.</p>
-    </article>
-
-    <article class="card">
-        <h3>Tips Belajar Informatika untuk Pemula</h3>
-        <p>
-            Belajar informatika membutuhkan konsistensi dan latihan yang terus menerus. 
-            Banyak mahasiswa merasa kesulitan karena terlalu fokus pada teori tanpa praktik.
-        </p>
-        <p>
-            Cara terbaik untuk belajar adalah dengan membuat project sederhana seperti website, API, atau aplikasi kecil.
-            Selain itu, memahami konsep dasar seperti algoritma, struktur data, dan jaringan komputer sangat penting.
-        </p>
-        <p>
-            Jangan takut untuk mencoba dan melakukan kesalahan, karena dari situlah proses belajar terjadi.
-        </p>
-        <p><strong>Kesimpulan:</strong> Konsistensi dan praktik adalah kunci utama dalam belajar informatika.</p>
-    </article>
-
-</div>
-
-<footer>
-    <p>© 2026 Fadhlan</p>
-</footer>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
