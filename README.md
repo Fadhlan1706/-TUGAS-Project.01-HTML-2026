@@ -13,11 +13,11 @@ Membuat personal homepage atau web portofolio sederhana.
 **Requirement Specification**<br>
 1. Menerapkan Github, HTML, CSS, dan Javascript dalam project ini.
 2. Memiliki setidaknya (minimum) halaman: Home, Gallery, Blog, Contact
-   1) Home: Halaman pembuka (homepage)
-   2) Gallery: Berisi kumpulan foto-foto
-   3) Blog: Berisi minimum 3 konten/artikel bebas, bisa berupa artikel-artikel tentang teknologi, seni, olahraga atau lainnya.
-   4) Contact: Berisi halaman kontak dan data diri mahasiswa
-   5) Tidak menggunakan library atau framework apapun, contoh JQuery, Bootstrap, dll.
+   1). Home: Halaman pembuka (homepage)
+   2). Gallery: Berisi kumpulan foto-foto
+   3). Blog: Berisi minimum 3 konten/artikel bebas, bisa berupa artikel-artikel tentang teknologi, seni, olahraga atau lainnya.
+   4). Contact: Berisi halaman kontak dan data diri mahasiswa
+   5). Tidak menggunakan library atau framework apapun, contoh JQuery, Bootstrap, dll.
 
 **Teknis Pengumpulan Tugas**<br>
 1. Kode sumber (source code) project dikerjakan pada repository anda di GitHub.
